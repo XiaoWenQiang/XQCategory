@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  UINavigationController+XQCategory.h
 //  XQCategory
 //
 //  Created by xiao qiang on 2016/7/8.
@@ -8,10 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface UINavigationController (XQCategory)
 
-@property (strong, nonatomic) UIWindow *window;
 
 
 @end
-

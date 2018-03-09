@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  UIViewController+XQCategory.h
 //  XQCategory
 //
 //  Created by xiao qiang on 2016/7/8.
@@ -8,10 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface UIViewController (XQCategory)
 
-@property (strong, nonatomic) UIWindow *window;
+- (void)tapAnywhereToHideKeyboard;
 
 
 @end
-

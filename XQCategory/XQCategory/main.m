@@ -2,7 +2,7 @@
 //  main.m
 //  XQCategory
 //
-//  Created by xiao qiang on 2018/3/8.
+//  Created by xiao qiang on 2016/7/8.
 //  Copyright © 2018年 xiao qiang. All rights reserved.
 //
 
