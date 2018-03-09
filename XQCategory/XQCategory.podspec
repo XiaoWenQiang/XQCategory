@@ -1,22 +1,17 @@
-
-
 Pod::Spec.new do |s|
-
-  s.name         = "XQCategory"
-  s.version      = "1.0.0"
-  s.summary      = "一个实用的iOS分类"
-  s.description  = "一个实用的iOS分类，包含了日常开发过程中的常用的功能和扩展。"
-                   
-  s.homepage     = "https://www.jianshu.com/u/16227d25bcf4"
-  s.license      = "MIT"
-
-
-  s.author       = { "xiaoqiang" => "xiaowenqiang_1@126.com" }
-  
-
+  s.name     = "XQCategory"
+  s.version  = "1.0.0"
+  s.license  = "MIT"
+  s.summary  = "一个实用的iOS分类"
+  s.homepage = "https://github.com/XiaoWenQiang"
+  s.author   = { "xiaoqiang" => "xiaowenqiang_1@126.com" }
+  s.social_media_url = "http://weibo.com/xzjxylophone"
   s.source       = { :git => "https://github.com/XiaoWenQiang/XQCategory", :tag => "1.0.0" }
-
-  s.source_files  = "XQCategory/XQCategories/*.{h，m}" 
+  s.description = %{
+      一个实用的iOS分类，包含了日常开发过程中的常用的功能和扩展。
+  }
+  s.source_files = 'XQCategory/*.{h,m}'
+  s.frameworks = 'Foundation', 'UIKit'
   s.requires_arc = true
-
+  s.platform = :ios, '8.0'
 end
