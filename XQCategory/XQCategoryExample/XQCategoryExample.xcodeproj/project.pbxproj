@@ -15,8 +15,6 @@
 		6E47F0EC20528F5A00FE75B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E47F0EB20528F5A00FE75B6 /* Assets.xcassets */; };
 		6E47F0EF20528F5A00FE75B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E47F0ED20528F5A00FE75B6 /* LaunchScreen.storyboard */; };
 		6E47F0F220528F5A00FE75B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E47F0F120528F5A00FE75B6 /* main.m */; };
-		6E47F0FC20528F5A00FE75B6 /* XQCategoryExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E47F0FB20528F5A00FE75B6 /* XQCategoryExampleTests.m */; };
-		6E47F10720528F5B00FE75B6 /* XQCategoryExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E47F10620528F5B00FE75B6 /* XQCategoryExampleUITests.m */; };
 		6E47F13F20528F9400FE75B6 /* NSDate+XQCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E47F11620528F9400FE75B6 /* NSDate+XQCategory.m */; };
 		6E47F14020528F9400FE75B6 /* NSDictionary+XQCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E47F11820528F9400FE75B6 /* NSDictionary+XQCategory.m */; };
 		6E47F14120528F9400FE75B6 /* NSFileManager+XQCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E47F11A20528F9400FE75B6 /* NSFileManager+XQCategory.m */; };
@@ -72,11 +70,7 @@
 		6E47F0F020528F5A00FE75B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E47F0F120528F5A00FE75B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6E47F0F720528F5A00FE75B6 /* XQCategoryExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XQCategoryExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6E47F0FB20528F5A00FE75B6 /* XQCategoryExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XQCategoryExampleTests.m; sourceTree = "<group>"; };
-		6E47F0FD20528F5A00FE75B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E47F10220528F5A00FE75B6 /* XQCategoryExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XQCategoryExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6E47F10620528F5B00FE75B6 /* XQCategoryExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XQCategoryExampleUITests.m; sourceTree = "<group>"; };
-		6E47F10820528F5B00FE75B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E47F11520528F9400FE75B6 /* NSDate+XQCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+XQCategory.h"; sourceTree = "<group>"; };
 		6E47F11620528F9400FE75B6 /* NSDate+XQCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+XQCategory.m"; sourceTree = "<group>"; };
 		6E47F11720528F9400FE75B6 /* NSDictionary+XQCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+XQCategory.h"; sourceTree = "<group>"; };
@@ -150,8 +144,6 @@
 			children = (
 				6E47F11420528F9400FE75B6 /* XQCategory */,
 				6E47F0DB20528F5A00FE75B6 /* XQCategoryExample */,
-				6E47F0FA20528F5A00FE75B6 /* XQCategoryExampleTests */,
-				6E47F10520528F5A00FE75B6 /* XQCategoryExampleUITests */,
 				6E47F0DA20528F5A00FE75B6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -184,24 +176,6 @@
 				6E47F0F120528F5A00FE75B6 /* main.m */,
 			);
 			path = XQCategoryExample;
-			sourceTree = "<group>";
-		};
-		6E47F0FA20528F5A00FE75B6 /* XQCategoryExampleTests */ = {
-			isa = PBXGroup;
-			children = (
-				6E47F0FB20528F5A00FE75B6 /* XQCategoryExampleTests.m */,
-				6E47F0FD20528F5A00FE75B6 /* Info.plist */,
-			);
-			path = XQCategoryExampleTests;
-			sourceTree = "<group>";
-		};
-		6E47F10520528F5A00FE75B6 /* XQCategoryExampleUITests */ = {
-			isa = PBXGroup;
-			children = (
-				6E47F10620528F5B00FE75B6 /* XQCategoryExampleUITests.m */,
-				6E47F10820528F5B00FE75B6 /* Info.plist */,
-			);
-			path = XQCategoryExampleUITests;
 			sourceTree = "<group>";
 		};
 		6E47F11420528F9400FE75B6 /* XQCategory */ = {
@@ -426,7 +400,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E47F0FC20528F5A00FE75B6 /* XQCategoryExampleTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,7 +407,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E47F10720528F5B00FE75B6 /* XQCategoryExampleUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -584,6 +556,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q76RED92XQ;
 				INFOPLIST_FILE = XQCategoryExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoqiang.test.XQCategoryExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -598,6 +571,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q76RED92XQ;
 				INFOPLIST_FILE = XQCategoryExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoqiang.test.XQCategoryExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
