@@ -1,5 +1,5 @@
 //
-//  Document.h
+//  ViewController.h
 //  XQCategoryExample
 //
 //  Created by xiao qiang on 2018/3/9.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface Document : UIDocument
-    
+@interface ViewController : UIViewController
+
+
 @end
+
