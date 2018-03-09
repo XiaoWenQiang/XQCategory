@@ -16,9 +16,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/XiaoWenQiang/XQCategory", :tag => "1.0.0" }
 
-  s.source_files  = "XQCategory/XQCategories/*.{h，m}" 
+  s.source_files  = "XQCategory/XQCategories/**/*.{h，m}" 
   s.requires_arc = true
-
-
 
 end
