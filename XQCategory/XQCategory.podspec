@@ -19,7 +19,7 @@ s.source       = { :git => "https://github.com/XiaoWenQiang/XQCategory", :tag =>
 s.description = %{
 一个实用的iOS分类，包含了日常开发过程中的常用的功能和扩展。
 }
-s.source_files = "XQCategory/*.{h,m}"
+s.source_files = "XQCategory","XQCategory/**/*.{h,m}"
 s.frameworks = 'Foundation', 'UIKit'
 s.requires_arc = true
 s.platform = :ios, '8.0'

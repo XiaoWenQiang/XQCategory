@@ -27,8 +27,8 @@
 		6E013A1220527C30007161C2 /* UIScrollView+XQCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0139F920527C30007161C2 /* UIScrollView+XQCategory.m */; };
 		6E013A1320527C30007161C2 /* UIView+XQCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0139FB20527C30007161C2 /* UIView+XQCategory.m */; };
 		6E013A1420527C30007161C2 /* UIViewController+XQCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0139FD20527C30007161C2 /* UIViewController+XQCategory.m */; };
-		6E013A1520527C30007161C2 /* XQKeyChainTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E013A0020527C30007161C2 /* XQKeyChainTool.m */; };
-		6E013A1620527C30007161C2 /* XQVendorToll.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E013A0220527C30007161C2 /* XQVendorToll.m */; };
+		6E47F02020528BAA00FE75B6 /* XQKeyChainTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E47F01D20528BAA00FE75B6 /* XQKeyChainTool.m */; };
+		6E47F02120528BAA00FE75B6 /* XQVendorToll.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E47F01F20528BAA00FE75B6 /* XQVendorToll.m */; };
 		96A6305638BD688473EE2808 /* libPods-XQCategory.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 914A0F179015F593F5A17481 /* libPods-XQCategory.a */; };
 		E8B37A27E90EE74AFB4BF0DE /* libPods-XQCategoryUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BE30AFDB60C026C05615AC9 /* libPods-XQCategoryUITests.a */; };
 		FE3ED389C55A9003F7AAAA8C /* libPods-XQCategoryTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B5F6DA05FBFCD7AD0E7F299D /* libPods-XQCategoryTests.a */; };
@@ -99,10 +99,10 @@
 		6E0139FC20527C30007161C2 /* UIViewController+XQCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+XQCategory.h"; sourceTree = "<group>"; };
 		6E0139FD20527C30007161C2 /* UIViewController+XQCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+XQCategory.m"; sourceTree = "<group>"; };
 		6E0139FE20527C30007161C2 /* XQCategoriesHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQCategoriesHeader.h; sourceTree = "<group>"; };
-		6E0139FF20527C30007161C2 /* XQKeyChainTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQKeyChainTool.h; sourceTree = "<group>"; };
-		6E013A0020527C30007161C2 /* XQKeyChainTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQKeyChainTool.m; sourceTree = "<group>"; };
-		6E013A0120527C30007161C2 /* XQVendorToll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQVendorToll.h; sourceTree = "<group>"; };
-		6E013A0220527C30007161C2 /* XQVendorToll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQVendorToll.m; sourceTree = "<group>"; };
+		6E47F01C20528BAA00FE75B6 /* XQKeyChainTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQKeyChainTool.h; sourceTree = "<group>"; };
+		6E47F01D20528BAA00FE75B6 /* XQKeyChainTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQKeyChainTool.m; sourceTree = "<group>"; };
+		6E47F01E20528BAA00FE75B6 /* XQVendorToll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQVendorToll.h; sourceTree = "<group>"; };
+		6E47F01F20528BAA00FE75B6 /* XQVendorToll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQVendorToll.m; sourceTree = "<group>"; };
 		914A0F179015F593F5A17481 /* libPods-XQCategory.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XQCategory.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACBE6C4D84029EB6E7D613FC /* Pods-XQCategory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XQCategory.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XQCategory/Pods-XQCategory.debug.xcconfig"; sourceTree = "<group>"; };
 		B48338251E16A5C89820B9A3 /* Pods-XQCategoryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XQCategoryUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XQCategoryUITests/Pods-XQCategoryUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -205,6 +205,7 @@
 		6E0139D920527C30007161C2 /* XQCategory */ = {
 			isa = PBXGroup;
 			children = (
+				6E47F01B20528BAA00FE75B6 /* XQKeyChain */,
 				6E0139DA20527C30007161C2 /* NSDate+XQCategory.h */,
 				6E0139DB20527C30007161C2 /* NSDate+XQCategory.m */,
 				6E0139DC20527C30007161C2 /* NSDictionary+XQCategory.h */,
@@ -242,13 +243,20 @@
 				6E0139FC20527C30007161C2 /* UIViewController+XQCategory.h */,
 				6E0139FD20527C30007161C2 /* UIViewController+XQCategory.m */,
 				6E0139FE20527C30007161C2 /* XQCategoriesHeader.h */,
-				6E0139FF20527C30007161C2 /* XQKeyChainTool.h */,
-				6E013A0020527C30007161C2 /* XQKeyChainTool.m */,
-				6E013A0120527C30007161C2 /* XQVendorToll.h */,
-				6E013A0220527C30007161C2 /* XQVendorToll.m */,
 			);
 			name = XQCategory;
 			path = ../XQCategory;
+			sourceTree = "<group>";
+		};
+		6E47F01B20528BAA00FE75B6 /* XQKeyChain */ = {
+			isa = PBXGroup;
+			children = (
+				6E47F01C20528BAA00FE75B6 /* XQKeyChainTool.h */,
+				6E47F01D20528BAA00FE75B6 /* XQKeyChainTool.m */,
+				6E47F01E20528BAA00FE75B6 /* XQVendorToll.h */,
+				6E47F01F20528BAA00FE75B6 /* XQVendorToll.m */,
+			);
+			path = XQKeyChain;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -531,11 +539,11 @@
 				6E013A0C20527C30007161C2 /* UIDevice+XQCategory.m in Sources */,
 				6E013A1020527C30007161C2 /* UILabel+XQCategory.m in Sources */,
 				6E013A0B20527C30007161C2 /* UIColor+XQCategory.m in Sources */,
-				6E013A1520527C30007161C2 /* XQKeyChainTool.m in Sources */,
+				6E47F02020528BAA00FE75B6 /* XQKeyChainTool.m in Sources */,
 				6E013A0E20527C30007161C2 /* UIImage+XQCategory.m in Sources */,
 				6E013A0520527C30007161C2 /* NSFileManager+XQCategory.m in Sources */,
 				6E013A0D20527C30007161C2 /* UIFont+XQCategory.m in Sources */,
-				6E013A1620527C30007161C2 /* XQVendorToll.m in Sources */,
+				6E47F02120528BAA00FE75B6 /* XQVendorToll.m in Sources */,
 				6E013A1120527C30007161C2 /* UINavigationController+XQCategory.m in Sources */,
 				6E013A0A20527C30007161C2 /* UIApplication+XQCategory.m in Sources */,
 				6E013A0320527C30007161C2 /* NSDate+XQCategory.m in Sources */,
