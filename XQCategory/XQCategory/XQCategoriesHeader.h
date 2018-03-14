@@ -26,7 +26,6 @@
 #import "UIView+XQCategory.h"
 #import "UIViewController+XQCategory.h"
 #import "UIImage+XQCategory.h"
-#import "UIAlertView+XQCategory.h"
 
 
 #endif /* XQCategoriesHeader_h */
