@@ -2,7 +2,7 @@
 //  ViewController.h
 //  XQCategoryExample
 //
-//  Created by xiao qiang on 2018/3/9.
+//  Created by xiao qiang on 2018/3/14.
 //  Copyright © 2018年 xiao qiang. All rights reserved.
 //
 
@@ -10,6 +10,4 @@
 
 @interface ViewController : UIViewController
 
-
 @end
-
