@@ -19,13 +19,14 @@
     [super viewDidLoad];
     UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
     imageView.image = [UIImage imageWithColor:[UIColor colorWithRGB:0xf5f5f5]];
-    [self.view addSubview:imageView];    
-}
-
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    [self.view addSubview:imageView];
+    
+    UIAlertView *alertVeiw = [[UIAlertView alloc] initWithTitle:@"例子" message:@"发放的发顺丰的" delegate:self cancelButtonTitle:@"知道了" otherButtonTitles:nil, nil];
+    [alertVeiw showWithCallbackBlock:^(NSInteger buttonIndex) {
+        if (buttonIndex == 0) {
+            NSLog(@"1");
+        }
+    }];
 }
 
 
