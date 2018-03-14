@@ -22,5 +22,5 @@ s.description = %{
 s.source_files = "XQCategory","XQCategory/**/*.{h,m}"
 s.frameworks = 'Foundation', 'UIKit'
 s.requires_arc = true
-s.platform = :ios, '9.0'
+s.platform = :ios, '8.0'
 end
