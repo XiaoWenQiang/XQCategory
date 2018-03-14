@@ -17,10 +17,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
-    imageView.image = [UIImage imageWithColor:[UIColor colorWithRGB:0xf5f5f5]];
-    [self.view addSubview:imageView];
-
+//    UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
+//    imageView.image = [UIImage imageWithColor:[UIColor colorWithRGB:0xf5f5f5]];
+//    [self.view addSubview:imageView];
 }
 
 
